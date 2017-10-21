@@ -1,0 +1,134 @@
+
+<style type="text/css">
+body {
+	
+	background-color:#BCC6CC;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+/*H1{
+  text-align:Center;
+  color: #294860;
+  
+  background:#FF8429;
+}*/
+li{
+	display:inline;
+    font-size: 30px;
+    float:left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+	display:block;
+	width:250px;
+}
+
+#header{
+	position:relative;
+	text-align:center;
+	color:Blue;
+	background:#98AFC7;
+	padding:5px;
+}
+#body{
+	padding:10px;
+   padding-bottom:60px;
+}
+#nav{
+	
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+
+/*.nav li{
+	display:inline;
+}
+.nav a{
+display:inline-block;
+padding:5px;	
+}*/
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+    background-color:#BCC6CC;
+}
+
+#footer {
+	position:absolute;    
+	bottom:0;        
+	left:0;        
+	width:100%;        
+	height:30px;
+	color:Blue;
+	background:#98AFC7;
+	padding:5px;
+    text-align:center;
+	
+}
+#container{
+	min-height:100%;
+	position:relative;
+}
+.article{
+	
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #294860;
+}
+screenshot{
+	max-width:460px;
+}
+.description{
+	
+	max-width:100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+H1{
+  text-align:Center;
+  color: #294860;
+  
+  background:#FF8429;
+}
+.lesson {
+	background-color: Silver;
+	border-radius: 15px;
+	color: Green;
+	padding: 10px;
+  margin: 10px auto;}
+
+.concept {
+	background-color: Grey;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #294860;
+}
+  
+  
+
+
+</style>

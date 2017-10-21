@@ -1,0 +1,45 @@
+{% extends "base.html"%}
+{% block content %}
+<br>
+<br>
+<br>
+
+<form action="/contact_output" method="post">
+	<fieldset>
+		<legend>Love To Hear From You</legend>
+          <br>
+          <br>
+			<span> Name:</span><input type="text" name="name"/>
+	       <br>
+	       <br>
+	
+			<span>E-mail:</span><input type="email" name="email"/>
+	
+	    	<br>
+			<br>
+			<br>
+			<span>Message:</span><textarea name="comment"></textarea>
+	        <br>
+	        <br>
+	  		<span class="buttton">
+		
+			<button Type="submit" name="comment" >Send your Message</button></span>
+
+    </fieldset>
+     <br>
+     <div style="color:red">{{error}}</div>
+
+</form>
+
+<hr>
+
+<!-- {% for row in rows %}
+	
+	<p>{{row[0]|e }} wrote:
+		<blockquote>
+         at {{ row[1]|e }}
+		</blockquote>
+	</p>
+{% endfor %}
+<hr> -->
+{% endblock %}

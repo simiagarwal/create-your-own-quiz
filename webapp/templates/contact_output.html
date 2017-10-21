@@ -1,0 +1,24 @@
+{% extends "base.html"%}
+{% block content %}
+
+
+<table border="1" style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Comment</th>
+    
+  </tr>
+  {%for comment in comment_list%}
+    <tr> 
+      <td>{{comment.name}}</td>
+      <td>{{comment.email}}</td>
+      <td>{{comment.comment}}</td>
+      
+    </tr>
+
+  {% endfor %}
+ 
+</table>
+
+{% endblock %}
